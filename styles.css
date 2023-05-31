@@ -23,8 +23,65 @@
 .main-title {
     font-size: 75px;
     color: blueviolet;
+    background-color: cyan;
 }
 
 .page-title {
     font-size: 55px;
+    background-color: yellow;
+}
+
+.gc-pic,
+.ts-pic,
+.odin-pic {
+    height: auto;
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.odin-pic {
+    width: 900px;
+}
+
+.ts-pic {
+    width: 300px;
+}
+
+.des,
+.ing,
+.ste {
+    font-size: 45px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.des {
+    color: red;
+}
+
+.des-text {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.ing {
+    color: blue;
+    text-align: center;
+}
+
+.ing-list {
+    font-size: 35px;
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.ste {
+    color: green;
+}
+
+.ste-list {
+    font-size: 28px;
 }
