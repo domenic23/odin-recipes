@@ -1,37 +1,55 @@
-.gc-link,
-.ts-link,
-.be-link {
-    font-size: 40px;
-    background: mediumseagreen;
-}
-
-.contain {
+.food-list ul{
+    margin: 0 0 0 0;
+    padding: 10px;
+    list-style-type: none;
     text-align: center;
+    width: 100%;
 }
 
-.food-list {
+.food-list li {
     display: inline-block;
-    text-align: left;
 }
 
-.main-title,
+.food-list ul li a {
+    text-decoration: none;
+    padding: 10px 90px;
+    margin: 0 0 0 -6px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.food-list ul li a:hover {
+    background-color: green;
+    color:purple;
+}
+
 .page-title {
     text-align: center;
     font-weight: bolder;
-}
-
-.main-title {
-    font-size: 75px;
-    color: blueviolet;
-    background-color: cyan;
-}
-
-.page-title {
     font-size: 55px;
     background-color: yellow;
+    border: 4px dotted orange;
+    margin: 0 25% 15px;
+    padding: 20px;
 }
 
-.gc-pic,
+.odin-title {
+    background-color: aqua;
+    width: 900px;
+    border: 8px double black;
+    margin: 0 auto;
+    text-align: center;
+    color: blueviolet;
+}
+
+.gc-pic {
+    height: auto;
+    width: 550px;
+    float: right;
+    margin: 30px 120px 0 90px;
+    border: 3px solid black;
+}
+.be-pic,
 .ts-pic,
 .odin-pic {
     height: auto;
@@ -39,12 +57,16 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 3px solid black;
 }
 
 .odin-pic {
     width: 900px;
 }
 
+.opic {
+    margin: 10px;
+}
 .ts-pic {
     width: 300px;
 }
@@ -66,6 +88,24 @@
     font-weight: 200;
 }
 
+.gc-des {
+    margin: 60px 60px 0;
+}
+
+.gc-des .des {
+    margin-bottom: 10px;
+}
+
+.gc-ing {
+    background-color: lightgreen;
+    width: 300px;
+    margin-left: 30%;
+
+}
+.gc-ing .ing {
+    margin: 55px auto 20px;
+}
+
 .ing {
     color: blue;
     text-align: center;
@@ -84,4 +124,12 @@
 
 .ste-list {
     font-size: 28px;
+}
+
+.gc-ste {
+    margin-left: 60px;
+}
+
+.gc-ste .ste-list li::marker {
+    color: red;
 }
